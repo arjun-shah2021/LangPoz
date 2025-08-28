@@ -63,7 +63,12 @@ with st.sidebar:
         "Spanish 🇪🇸": "Spanish",
         "Portuguese 🇵🇹": "Portuguese",
         "Russian 🇷🇺": "Russian",
-        "Nigerian Pidgin 🇳🇬": "Nigerian Pidgin"
+        "Nigerian Pidgin 🇳🇬": "Nigerian Pidgin",
+        "Gujarati 🇮🇳": "Gujarati",
+        "Punjabi 🇮🇳": "Punjabi",
+        "Catalan 🇪🇸": "Catalan",
+        "Bengali 🇮🇳": "Bengali",
+
     }
     target_display = st.selectbox("Target Language", list(language_options.keys()))
     target_language = language_options[target_display]
